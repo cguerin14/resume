@@ -6,6 +6,7 @@
       "<code>about</code> : Afficher les informations me concernant.",
       "<code>experiences</code> : Afficher la liste de mes expériences.",
       "<code>resume</code> : Télécharger le CV.",
+      "<code>picture</code> : Afficher ma photo de profil.",
       "<code>help</code> : Afficher l'aide.",
       "<code>clear</code> : Nettoyer le terminal.",
       "<code>dark/light</code> : Change le thème de la page.",

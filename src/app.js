@@ -28,7 +28,7 @@ commands.forEach((c) => {
 });
 
 // Commandes qui nécessitent un traitement JS
-const customCommands = ["resume", "clear", "dark", "light"];
+const customCommands = ["resume", "picture", "clear", "dark", "light"];
 commandsList = commandsList.concat(customCommands);
 
 // Commandes 'easter eggs' non disponibles à l'autocomplétion
@@ -213,7 +213,7 @@ function handleCustomCommands(command) {
   switch (command) {
     case "pif":
       pif();
-      return "C'est la fête !";
+      return "Bien essayé !";
     case "light":
       if (!document.body.classList.contains("dark-mode"))
         return "Vous êtes déjà en mode clair";
@@ -227,9 +227,11 @@ function handleCustomCommands(command) {
     case "resume":
       getCV();
       return "Le CV va être téléchargé.";
+    case "picture":
+      return `<img src="./resources/picture.png" style="max-width: 35%; height: auto;" />`;
     case "rm -rf /":
       rmRf();
-      return "w4dhIHZhIFDDiVRFUiAh";
+      return "Vous êtes bien trop malin pour ce terminal !";
     case "clear":
       terminalBody.innerHTML = `<div id="terminal"></div>`;
       return;
