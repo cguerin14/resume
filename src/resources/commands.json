@@ -1,0 +1,52 @@
+[
+  {
+    "command": "help",
+    "responseType": "list",
+    "value": [
+      "<code>about</code> : Afficher les informations me concernant.",
+      "<code>experiences</code> : Afficher la liste de mes expériences.",
+      "<code>resume</code> : Télécharger le CV.",
+      "<code>help</code> : Afficher l'aide.",
+      "<code>clear</code> : Nettoyer le terminal.",
+      "<code>dark/light</code> : Change le thème de la page.",
+      "<em>Vous pouvez utiliser la touche TAB afin de compléter une commande</em>.",
+      "<em>Vous pouvez retrouver les anciennes commandes avec les flèches haut et bas.</em>"
+    ]
+  },
+  {
+    "command": "about",
+    "responseType": "code",
+    "value": [
+      "{",
+      "   \"nom\" : \"Clément GUERIN\",",
+      "   \"poste\" : \"Développeur Fullstack\",",
+      "   \"experience\" : \"3 ans\",",
+      "   \"ville\" : \"Montréal, Qc, Canada\"",
+      "}"
+    ]
+  },
+  {
+    "command": "experiences",
+    "responseType": "table",
+    "headers": [
+      "Date",
+      "Client",
+      "Description",
+      "Technologies"
+    ],
+    "rows": [
+      [
+        "03/2021<br/>Aujourd'hui",
+        "<em>Desjardins</em><br/>Montréal (Québec)",
+        "Développer des microservices Java / Spring Boot.<br/>Créer des pipelines de déploiement continue Concourse.<br/>Utiliser la plateforme Pivotal Cloud Foundry ainsi que ses divers services.<br/>Rédiger des contrats Swagger, et utiliser l’approche Contract-First à l’aide de Swagger Codegen.<br/>Participer activement à la préparation des colis et aux mises en production.<br/>Participer à la revue de code et s’assurer du respect des bonnes pratiques.<br/>Être un membre actif lors des différentes cérémonies impliquées par le cadre méthodologique Scrum.",
+        "Spring Boot<br/>Java<br/>Concourse<br/>Pivotal CF"
+      ],
+      [
+        "03/2019<br/>12/2020",
+        "<em>EDF</em><br/>Toulouse (France)",
+        "Développer un BFF Java / Spring Boot.<br/>Développer une SPA Angular.<br/>Participer à la revue de code et s’assurer du respect des bonnes pratiques.<br/>Être un membre actif lors des différentes cérémonies impliquées par le cadre méthodologique Scrum.",
+        "Spring Boot<br/>Java<br/>Angular"
+      ]
+    ]
+  }
+]
