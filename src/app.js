@@ -233,7 +233,24 @@ function handleCustomCommands(command) {
       rmRf();
       return "Vous êtes bien trop malin pour ce terminal !";
     case "clear":
-      terminalBody.innerHTML = `<div id="terminal"></div>`;
+      terminalBody.innerHTML = `<div class="terminal__banner">
+          <pre>
+    ______     __   __      ______   ______     ______     __    __     __     __   __     ______     __
+   /\\  ___\\   /\\ \\ / /     /\\__  _\\ /\\  ___\\   /\\  == \\   /\\ "-./  \\   /\\ \\   /\\ "-.\\ \\   /\\  __ \\   /\\ \\
+   \\ \\ \\____  \\ \\ \\'/      \\/_/\\ \\/ \\ \\  __\\   \\ \\  __<   \\ \\ \\-./\\ \\  \\ \\ \\  \\ \\ \\-.  \\  \\ \\  __ \\  \\ \\ \\____
+    \\ \\_____\\  \\ \\__|         \\ \\_\\  \\ \\_____\\  \\ \\_\\ \\_\\  \\ \\_\\ \\ \\_\\  \\ \\_\\  \\ \\_\\\\"\\_\\  \\ \\_\\ \\_\\  \\ \\_____\\
+     \\/_____/   \\/_/           \\/_/   \\/_____/   \\/_/ /_/   \\/_/  \\/_/   \\/_/   \\/_/ \\/_/   \\/_/\\/_/   \\/_____/
+          </pre>
+          <div class="terminal__author">Clément GUERIN</div>
+          <p>
+            Pour afficher les commandes disponibles tapez <code>help</code>.
+            <br />
+            Pour valider chaque commande appuyez sur <em>Entrer</em>, vous
+            pouvez utiliser la touche <em>Tabulation</em> afin de vous aider à
+            compléter une commande.
+          </p>
+        </div>
+        <div id="terminal"></div>`;
       return;
   }
 }
