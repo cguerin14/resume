@@ -52,8 +52,8 @@ export function setDarkMode(value) {
 
 export function getCV() {
   const a = document.createElement("a");
-  a.href = "resources/CV - Clément GUERIN.pdf";
-  a.setAttribute("download", "CV - Clément GUERIN.pdf");
+  a.href = "resources/CV GUERIN Clément.pdf";
+  a.setAttribute("download", "CV GUERIN Clément.pdf");
   a.click();
 }
 
