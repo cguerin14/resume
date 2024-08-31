@@ -20,9 +20,9 @@
     "value": [
       "{",
       "   \"nom\" : \"Clément GUERIN\",",
-      "   \"poste\" : \"Développeur Fullstack\",",
-      "   \"experience\" : \"3 ans\",",
-      "   \"ville\" : \"Montréal, Qc, Canada\"",
+      "   \"poste\" : \"Développeur back-end\",",
+      "   \"experience\" : \"5 ans\",",
+      "   \"ville\" : \"Bordeaux, France\"",
       "}"
     ]
   },
@@ -37,16 +37,22 @@
     ],
     "rows": [
       [
-        "03/2021<br/>Aujourd'hui",
-        "<em>Desjardins</em><br/>Montréal (Québec)",
-        "Développer des microservices Java / Spring Boot.<br/>Créer des pipelines de déploiement continue Concourse.<br/>Utiliser la plateforme Pivotal Cloud Foundry ainsi que ses divers services.<br/>Rédiger des contrats Swagger, et utiliser l’approche Contract-First à l’aide de Swagger Codegen.<br/>Participer activement à la préparation des colis et aux mises en production.<br/>Participer à la revue de code et s’assurer du respect des bonnes pratiques.<br/>Être un membre actif lors des différentes cérémonies impliquées par le cadre méthodologique Scrum.",
-        "Spring Boot<br/>Java<br/>Concourse<br/>Pivotal CF"
+        "08/2022<br/>07/2024",
+        "<em>Banque Nationale du Canada</em><br/>Montréal, Québec",
+        "Développer des microservices Java | Spring Boot<br/>Utiliser des pipelines CI/CD Jenkins et Github Actions<br/>Déployer sur AWS<br/>Utiliser le BDD avec une pyramide de tests très structurée<br/>Interagir quotidiennement avec les frameworks standards de l’industrie : Maven | Cucumber | Junit | Mockito | PIT Mutation Testing | Kafka | OpenAPI | Hibernate | OpenFeign | Nexus<br/>Interagir quotidiennement avec les softwares standards de l’industrie : Jira | Confluence | Splunk | Datadog | Bitbucket | Github<br/>Gestion de la propreté du code à l’aide de SonarQube<br/>Participer à la revue de code et assurer le respect des pratiques d'équipe<br/>Être un membre actif lors des différentes cérémonies impliquées par le cadre méthodologique Scrum",
+        "Spring<br/>Java<br/>Github<br/>Jenkins<br/>AWS"
+      ],
+      [
+        "03/2021<br/>08/2022",
+        "<em>Consultant CGI</em><br/>Montréal, Québec",
+        "Développer des microservices Java | Spring Boot<br/>Créer des pipelines CI/CD Concourse<br/>Déployer sur la plateforme Pivotal Cloud Foundry<br/>Rédiger des contrats OpenAPI via les outils Swagger<br/>Participer activement à la préparation des colis et aux mises en production<br/>Interagir quotidiennement avec les frameworks standards de l’industrie : Gradle | Junit | Mockito | OpenAPI | Hibernate | OpenFeign | Artifactory<br/>Interagir quotidiennement avec les softwares standards de l’industrie : Jira | Confluence | Splunk | Bitbucket<br/>Gestion de la propreté du code à l’aide de SonarQube<br/>Participer à la revue de code et assurer le respect des pratiques d’équipe<br/>Être un membre actif lors des différentes cérémonies impliquées par le cadre méthodologique Scrum",
+        "Spring<br/>Java<br/>Github<br/>Concourse<br/>Pivotal CF"
       ],
       [
         "03/2019<br/>12/2020",
-        "<em>EDF</em><br/>Toulouse (France)",
-        "Développer un BFF Java / Spring Boot.<br/>Développer une SPA Angular.<br/>Participer à la revue de code et s’assurer du respect des bonnes pratiques.<br/>Être un membre actif lors des différentes cérémonies impliquées par le cadre méthodologique Scrum.",
-        "Spring Boot<br/>Java<br/>Angular"
+        "<em>Consultant CGI</em><br/>Toulouse",
+        "Développer un BFF Java | Spring Boot<br/>Développer une SPA Angular<br/>Interagir quotidiennement avec les frameworks standards de l’industrie : Maven | Junit | Mockito | Hibernate<br/>Interagir quotidiennement avec les softwares standards de l’industrie : Jira | Confluence | Github<br/>Participer à la revue de code et assurer le respect des pratiques d’équipe<br/>Être un membre actif lors des différentes cérémonies impliquées par le cadre méthodologique Scrum",
+        "Spring<br/>Java<br/>Angular<br/>Github<br/>Jenkins"
       ]
     ]
   }
